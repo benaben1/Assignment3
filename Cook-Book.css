@@ -1,0 +1,37 @@
+header{
+    margin-left:95px;
+    font-size: 70px;
+    font-family:Trebuchet MS;
+}
+figure {
+    border: thin #c0c0c0 solid;
+    border-radius: 360px;
+    display: flex;
+    flex-flow: column;
+    padding: 35px;
+    max-width: 220px;
+}
+
+img {
+width:100px;
+height: 90px;
+float: none;
+}
+
+figcaption {
+    color: rgb(0, 0, 0);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.container{
+    display:inline-flex;
+    border: 2px solid rgb(255, 83, 16);
+    margin: 16px;
+    margin-left: 1px;
+    border-radius: 90px;
+    height: 610px;
+}
+.column-two{
+    margin-left: 2px;
+}
