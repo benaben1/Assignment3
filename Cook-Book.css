@@ -1,6 +1,6 @@
 header{
-    margin-left:245px;
-    margin-right: 360px;
+    margin-left:290px;
+    margin-right: 400px;
     font-size: 70px;
     font-family:Trebuchet MS;
     border: thin #c0c0c0 solid;
@@ -48,6 +48,4 @@ figcaption {
 figure:hover{
     border-radius: 10%;
 }
-.san{
-    text-align="center";
-}
+
