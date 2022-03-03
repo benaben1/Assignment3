@@ -13,9 +13,15 @@ figure {
     border: thin #c0c0c0 solid;
     border-radius: 360px;
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     padding: 15px;
     max-width: 220px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
 img {
@@ -33,14 +39,14 @@ figcaption {
 }
 .container{
     display:inline-flex;
-    border: 4px solid rgb(255, 83, 16);
+    border: 4px solid rgb(0, 0, 0);
     margin: 16px;
     margin-left:220px;
     border-radius: 90px;
     height: 610px;
     background-color:rgb(228, 172, 41);
     padding-top: 20px;
-   padding-bottom: 120px;
+   padding-bottom: 90px;
 }
 .column-two{
     margin-left: 2px;
