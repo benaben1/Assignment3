@@ -1,15 +1,17 @@
 header{
-    margin-left:290px;
-    margin-right: 400px;
+    margin:auto;
     font-size: 70px;
     font-family:Trebuchet MS;
-    border: thin #c0c0c0 solid;
+
     margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+
     
 }
 
 figure {
-    background-color:whitesmoke;
+    background-color:white;
     border: thin #c0c0c0 solid;
     border-radius: 360px;
     display: flex;
@@ -39,14 +41,17 @@ figcaption {
     margin-bottom:9px;
 }
 .container{
-    display:inline-flex;
+    display:flex;
+    flex-wrap: wrap;
     border: 4px solid rgb(0, 0, 0);
-    margin: 16px;
-    margin-left:220px;
-    border-radius: 90px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
     height: 610px;
-    background-color:rgb(228, 172, 41);
+    background-color:whitesmoke;
     padding-top: 20px;
+    margin-top: 30x;
    padding-bottom: 90px;
    
 }
@@ -58,16 +63,16 @@ figure:hover{
 }
 
  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {} 
+@media only screen and (max-width: 1000px) {
+    figure{
+        width:60%;
+    }
+   .container{
+         width:100%;
+         height: auto;
+   }
+   header{
+       font-size: 27px;
+   }
+  
+}
