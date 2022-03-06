@@ -7,8 +7,6 @@ header{
 
     
 }
-.logo{
-}
 .menu{
     font-family:Segoe Print;
 }
@@ -18,10 +16,7 @@ figure {
     background-color:white;
     border: thin #c0c0c0 solid;
     border-radius: 360px;
-    display: flex;
-    flex-flow: column wrap;
-    padding: 15px;
-    max-width: 220px;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -32,34 +27,38 @@ figure {
 
 
 img {
-width:120px;
-height: 100px;
+width:100px;
+height: 80px;
 float: none;
 padding: 20px;
 }
 
 figcaption {
     color: rgb(0, 0, 0);
-    font: italic 15px sans-serif;
+    background-color: rgb(250, 35, 35);
+    width: 70px;
+    font: 15px sans-serif;
+    margin-bottom:16px;
+    margin-left: 33px;
     text-align: center;
-    margin-bottom:9px;
+    
 }
 .container{
     display:flex;
     flex-wrap: wrap;
     border: 4px solid rgb(0, 0, 0);
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-    height: 610px;
     background-color:whitesmoke;
     padding-top: 20px;
     margin-top: 30x;
    padding-bottom: 90px;
    
+   
 }
-.column-two{
-    margin-left: 2px;
+.column-one{
+    border: 4px solid rgb(0, 0, 0);
+}
+.b1{
+    left: 0px;
 }
 figure:hover{
     border-radius: 10%;
