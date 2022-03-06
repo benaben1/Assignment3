@@ -1,12 +1,13 @@
 header{
     margin:auto;
     font-size: 70px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    margin-top: 20px;
     text-align: center;
     background-color:rgb(255, 0, 0);
 
     
+}
+.logo{
 }
 .menu{
     font-family:Segoe Print;
@@ -50,7 +51,6 @@ figcaption {
     margin: auto;
     justify-content: space-around;
     align-items: center;
-    border-radius: 20px;
     height: 610px;
     background-color:whitesmoke;
     padding-top: 20px;
@@ -77,8 +77,16 @@ figure:hover{
    header{
        font-size: 40px;
    }
+   footer{
+       font-size: 15px;
+   }
   
 }
 footer{
+    color: rgb(255, 255, 255);
     background-color:rgb(255, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    height: 50px;
+    padding-top: 20px;
 }
