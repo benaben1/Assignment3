@@ -53,6 +53,9 @@ figcaption {
     padding-bottom: 100px;
     
 }
+h2{
+    text-align: center;
+}
 .column-one{
     border: 4px solid rgb(0, 0, 0);
     padding:0%;
@@ -80,6 +83,23 @@ figcaption {
   flex-direction: row;
 }
 .p2{
+  display: flex;
+  flex-direction: row;
+}
+.column3{
+    border: 3px solid rgb(0, 0, 0);
+    margin-bottom: 220px;
+    margin-left: 5px;
+}
+.j1{
+  display: flex;
+  flex-direction: row;
+}
+.j2{
+  display: flex;
+  flex-direction: row;
+}
+.j3{
   display: flex;
   flex-direction: row;
 }
