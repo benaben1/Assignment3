@@ -56,15 +56,25 @@ figcaption {
 }
 .column-one{
     border: 4px solid rgb(0, 0, 0);
+    padding:0%;
+    margin: 0%;
 }
 .b1{
-    left: 0px;
+ display: flex;
+  flex-direction: row;
 }
 .b2{
+    display: flex;
+  flex-direction: row;
+}
+.b3{
+  display: flex;
+  flex-direction: row;
 }
 figure:hover{
     border-radius: 10%;
 }
+
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1000px) {
