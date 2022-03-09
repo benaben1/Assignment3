@@ -149,6 +149,13 @@ figure:hover{
     border-radius: 10%;
     background-color: rgb(243, 98, 98);
 }
+.column4 figure{
+  width: 220px;
+}
+.column4 img{
+  width: 85px;
+  margin-left: 12px;
+}
 
 
  /* Extra small devices (phones, 600px and down) */
