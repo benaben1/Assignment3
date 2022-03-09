@@ -99,6 +99,8 @@ h2{
   flex-direction: row;
 }
 .column3{
+    display: flex;
+    column-gap: 50px;
     border: 2px solid rgb(0, 0, 0);
     margin-bottom: 220px;
     margin-left: 9px;
@@ -106,24 +108,12 @@ h2{
     border-radius: 10%;
     width: 428px;
 }
-.j1{
-  display: flex;
-  flex-direction: row;
-}
-.j2{
-  display: flex;
-  flex-direction: row;
-}
-.j3{
-  display: flex;
-  flex-direction: row;
-}
+
 .column4{
     border: 2px solid rgb(0, 0, 0);
     width: 1345px;
     border-radius: 10%;
     margin-top: 10px;
-    display: flex;
     column-gap: 10px;
 }
 .L1{
