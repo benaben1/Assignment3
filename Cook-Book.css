@@ -56,20 +56,18 @@ p{
     flex-wrap: wrap;
     border: 4px solid rgb(0, 0, 0);
     background-color:whitesmoke;
-    padding-top: 10px;
-    margin-top: 20px;
     padding-bottom: 30px;
-    
 }
 h2{
     text-align: center;
 }
 .column-one{
-    border: 4px solid rgb(0, 0, 0);
-    padding:0%;
+    border: 2px solid rgb(0, 0, 0);
     margin-left: 10px;
     width: 430px;
     height: 670px;
+    margin-top: 50px;
+    border-radius: 10%;
 }
 .b1{
   display: flex;
@@ -85,11 +83,12 @@ h2{
   flex-direction: row;
 }
 .column2{
-    border: 3px solid rgb(0, 0, 0);
-    margin-left: 5px;
-    width: 435px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 9px;
+    width: 418px;
     height: 500px;
-
+    margin-top:50px;
+    border-radius: 10%;
 }
 .p1{
   display: flex;
@@ -100,9 +99,12 @@ h2{
   flex-direction: row;
 }
 .column3{
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     margin-bottom: 220px;
-    margin-left: 5px;
+    margin-left: 9px;
+    margin-top: 50px;
+    border-radius: 10%;
+    width: 428px;
 }
 .j1{
   display: flex;
@@ -117,8 +119,12 @@ h2{
   flex-direction: row;
 }
 .column4{
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     width: 1345px;
+    border-radius: 10%;
+    margin-top: 10px;
+    display: flex;
+    column-gap: 10px;
 }
 .L1{
   display: flex;
@@ -129,7 +135,9 @@ h2{
   flex-direction: row;
 }
 .column5{
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10%;
+
 }
 
 .I1{
@@ -141,11 +149,11 @@ h2{
   flex-direction: row;
 }
 .column6{
-  border: 3px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 }
 figure:hover{
     border-radius: 10%;
-    background-color: rgb(243, 98, 98);
+    background-color: rgb(255, 182, 182);
 }
 .column4 figure{
   width: 220px;
@@ -164,7 +172,8 @@ figure:hover{
   margin-left: 7px;
 }
 .column6{
-  margin-left: 5px;
+  margin-left: 45px;
+  border-radius: 10%;
 }
 .column7{
   border: 3px solid rgb(0, 0, 0);
@@ -176,6 +185,13 @@ figure:hover{
   width: 300px;
   height: 300px;
 }
+.column8{
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-size:20px;
+    margin-left: 950px;
+    margin-right: 25px;
+}
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1000px) {
@@ -183,14 +199,18 @@ figure:hover{
         width:60%;
     }
    .container{
-         width:100%;
+         width:80%;
          height: auto;
    }
    header{
        font-size: 40px;
    }
+   .column7{
+       width: 30px;
+       height: 30px;
+   }
    footer{
-       font-size: 15px;
+       font-size: 10px;
    }
   
 }
