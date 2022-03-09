@@ -58,7 +58,7 @@ p{
     background-color:whitesmoke;
     padding-top: 10px;
     margin-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
     
 }
 h2{
@@ -118,9 +118,7 @@ h2{
 }
 .column4{
     border: 3px solid rgb(0, 0, 0);
-    margin-left: 5px;
     width: 1345px;
-    margin-top: 0px;
 }
 .L1{
   display: flex;
@@ -156,7 +154,28 @@ figure:hover{
   width: 85px;
   margin-left: 12px;
 }
-
+.column4{
+  width: 1305px;
+  margin-left: 7px;
+  margin-bottom: 130px;
+  margin-top: 1px;
+}
+.column5{
+  margin-left: 7px;
+}
+.column6{
+  margin-left: 5px;
+}
+.column7{
+  border: 3px solid rgb(0, 0, 0);
+  margin-left: 300px;
+  height: 300px;
+  width: 300px;
+}
+.column7 img{
+  width: 300px;
+  height: 300px;
+}
 
  /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 1000px) {
