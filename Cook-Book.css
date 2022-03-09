@@ -21,7 +21,7 @@ figure {
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: rgb(100, 207, 243);
+    background-color: rgb(243, 169, 100);
   }
 }
 
@@ -68,6 +68,7 @@ h2{
     height: 670px;
     margin-top: 50px;
     border-radius: 10%;
+    background-color: rgb(222, 255, 213);
 }
 .b1{
   display: flex;
@@ -89,6 +90,7 @@ h2{
     height: 500px;
     margin-top:50px;
     border-radius: 10%;
+    background-color: rgb(222, 255, 213);
 }
 .p1{
   display: flex;
@@ -99,22 +101,32 @@ h2{
   flex-direction: row;
 }
 .column3{
-    display: flex;
-    column-gap: 50px;
     border: 2px solid rgb(0, 0, 0);
     margin-bottom: 220px;
     margin-left: 9px;
     margin-top: 50px;
     border-radius: 10%;
     width: 428px;
+    margin-bottom: 50px;
+    background-color: rgb(250, 200, 233);
 }
-
+.j1{
+  display: flex;
+  flex-direction: row;
+}
+.j2{
+  display: flex;
+  flex-direction: row;
+}
+.j3{
+  display: flex;
+  flex-direction: row;
+}
 .column4{
     border: 2px solid rgb(0, 0, 0);
     width: 1345px;
     border-radius: 10%;
-    margin-top: 10px;
-    column-gap: 10px;
+    background-color: rgb(250, 200, 233);
 }
 .L1{
   display: flex;
@@ -127,6 +139,7 @@ h2{
 .column5{
   border: 2px solid rgb(0, 0, 0);
   border-radius: 10%;
+  background-color: rgb(250, 200, 233);
 
 }
 
@@ -143,10 +156,10 @@ h2{
 }
 figure:hover{
     border-radius: 10%;
-    background-color: rgb(255, 182, 182);
+    background-color: rgb(253, 253, 223);
 }
 .column4 figure{
-  width: 220px;
+  width: 270px;
 }
 .column4 img{
   width: 85px;
@@ -155,8 +168,8 @@ figure:hover{
 .column4{
   width: 1305px;
   margin-left: 7px;
-  margin-bottom: 130px;
-  margin-top: 1px;
+  margin-bottom: 70px;
+  margin-top: 0%;
 }
 .column5{
   margin-left: 7px;
@@ -164,12 +177,15 @@ figure:hover{
 .column6{
   margin-left: 45px;
   border-radius: 10%;
+  background-color: rgb(250, 200, 233);
 }
 .column7{
   border: 3px solid rgb(0, 0, 0);
   margin-left: 300px;
   height: 300px;
   width: 300px;
+  margin-top: 50px;
+    background-color: rgb(250, 200, 233);
 }
 .column7 img{
   width: 300px;
